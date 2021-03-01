@@ -41,4 +41,4 @@ print("--------------")
 ask_expert(bn="irregular")
 print("--------------")
 ask_expert(bn="bien definido",
-			canibalismo="presente")
+			canibalismo="presente", nc="normal")

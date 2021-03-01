@@ -24,7 +24,7 @@ class RuleEngine():
 				self.RESPUESTA[1] = key
 			elif fail > 0:
 				continue
-			elif success > 0 and success < len(self.rules[key].keys()):
+			elif success >= 0 and success < len(self.rules[key].keys()):
 				self.RESPUESTA[0].append(key)
 
 	def declare(self, bn=NADA,arq=NADA,canibalismo=NADA,n=NADA,nc=NADA,c=NADA,necro=NADA):
